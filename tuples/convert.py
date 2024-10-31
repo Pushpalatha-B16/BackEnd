@@ -1,0 +1,10 @@
+n=int(input("number of items:"))
+colors=tuple()
+colors=list(colors)
+for i in range(n):
+    i=input()
+    colors.append(i)
+print(f"type:{type(colors)}")    
+colors=tuple(colors)
+print(f"type:{type(colors)}")   
+print(f"Favourite colors:{colors}")
